@@ -7,4 +7,6 @@ const server = express();
 
 server.use(express.json());
 
+//Endpoints
+
 module.exports = server; // EXPORT YOUR SERVER instead of {}
